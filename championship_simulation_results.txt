@@ -1,0 +1,76 @@
+=== Championship Simulation: Single Run ===
+#13 Driver #13 - Points: 169.0 (Rank 1)
+#16 Driver #16 - Points: 123.0 (Rank 2)
+#72 Driver #72 - Points: 75.0 (Rank 3)
+#07 Driver #7 - Points: 72.0 (Rank 4)
+#21 Driver #21 - Points: 72.0 (Rank 4)
+#111 Driver #111 - Points: 61.0 (Rank 6)
+#22 Driver #22 - Points: 58.0 (Rank 7)
+#55 Driver #55 - Points: 51.0 (Rank 8)
+#78 Driver #78 - Points: 40.0 (Rank 9)
+#41 Driver #41 - Points: 34.0 (Rank 10)
+
+=== Race-by-Race Summary ===
+
+Event 1 - barber_Race 1 [default] | Winner: #13 Driver #13
+  - P1: #13 Driver #13 | PredRank≈7.4, PredLap=101.74s, FinishProb=86.8%, Status=FIN
+  - P2: #55 Driver #55 | PredRank≈8.6, PredLap=103.75s, FinishProb=92.9%, Status=FIN
+  - P3: #111 Driver #111 | PredRank≈8.8, PredLap=103.98s, FinishProb=99.0%, Status=FIN
+
+Event 2 - barber_Race 2 [default] | Winner: #16 Driver #16
+  - P1: #16 Driver #16 | PredRank≈7.4, PredLap=101.71s, FinishProb=86.4%, Status=FIN
+  - P2: #13 Driver #13 | PredRank≈7.2, PredLap=101.39s, FinishProb=85.8%, Status=FIN
+  - P3: #21 Driver #21 | PredRank≈10.2, PredLap=106.40s, FinishProb=87.8%, Status=FIN
+
+Event 3 - COTA_Race 1 [default] | Winner: #16 Driver #16
+  - P1: #16 Driver #16 | PredRank≈7.4, PredLap=146.33s, FinishProb=85.5%, Status=FIN
+  - P2: #13 Driver #13 | PredRank≈7.2, PredLap=145.86s, FinishProb=84.9%, Status=FIN
+  - P3: #22 Driver #22 | PredRank≈9.7, PredLap=151.77s, FinishProb=86.5%, Status=FIN
+
+Event 4 - COTA_Race 2 [default] | Winner: #13 Driver #13
+  - P1: #13 Driver #13 | PredRank≈7.2, PredLap=145.86s, FinishProb=83.8%, Status=FIN
+  - P2: #16 Driver #16 | PredRank≈7.4, PredLap=146.33s, FinishProb=84.4%, Status=FIN
+  - P3: #22 Driver #22 | PredRank≈9.7, PredLap=151.77s, FinishProb=85.4%, Status=FIN
+
+Event 5 - indianapolis_Race 1 [default] | Winner: #13 Driver #13
+  - P1: #13 Driver #13 | PredRank≈7.2, PredLap=103.90s, FinishProb=82.8%, Status=FIN
+  - P2: #72 Driver #72 | PredRank≈10.2, PredLap=109.01s, FinishProb=87.7%, Status=FIN
+  - P3: #21 Driver #21 | PredRank≈10.2, PredLap=109.04s, FinishProb=83.0%, Status=FIN
+
+Event 6 - indianapolis_Race 2 [cold] | Winner: #16 Driver #16
+  - P1: #16 Driver #16 | PredRank≈7.4, PredLap=106.76s, FinishProb=73.6%, Status=FIN
+  - P2: #07 Driver #7 | PredRank≈9.2, PredLap=110.66s, FinishProb=66.9%, Status=FIN
+  - P3: #78 Driver #78 | PredRank≈9.9, PredLap=112.33s, FinishProb=77.7%, Status=FIN
+
+Event 7 - virginia-international-raceway_Race 1 [hot] | Winner: #16 Driver #16
+  - P1: #16 Driver #16 | PredRank≈7.4, PredLap=144.21s, FinishProb=76.0%, Status=FIN
+  - P2: #13 Driver #13 | PredRank≈7.2, PredLap=142.92s, FinishProb=71.8%, Status=FIN
+  - P3: #55 Driver #55 | PredRank≈9.6, PredLap=150.97s, FinishProb=65.2%, Status=FIN
+
+Event 8 - virginia-international-raceway_Race 2 [default] | Winner: #13 Driver #13
+  - P1: #13 Driver #13 | PredRank≈7.2, PredLap=139.24s, FinishProb=76.3%, Status=FIN
+  - P2: #07 Driver #7 | PredRank≈9.2, PredLap=143.77s, FinishProb=73.6%, Status=FIN
+  - P3: #72 Driver #72 | PredRank≈10.2, PredLap=146.08s, FinishProb=82.4%, Status=FIN
+
+=== Prediction Snapshot (First Event) ===
+  Driver #13 Driver #13 | PredRank 7.43 → Final P1 | PredSpeed 135.5 km/h | FinishProb 86.8%
+  Driver #55 Driver #55 | PredRank 8.63 → Final P2 | PredSpeed 132.9 km/h | FinishProb 92.9%
+  Driver #111 Driver #111 | PredRank 8.77 → Final P3 | PredSpeed 132.6 km/h | FinishProb 99.0%
+  Driver #72 Driver #72 | PredRank 8.95 → Final P4 | PredSpeed 132.2 km/h | FinishProb 95.3%
+  Driver #21 Driver #21 | PredRank 9.27 → Final P5 | PredSpeed 131.5 km/h | FinishProb 89.6%
+
+Summary: 8 events simulated | Total DNFs: 45
+
+=== Monte Carlo Summary (Top 10) ===
+#13 Driver #13 - AvgPts: 156.0 | Win%: 64.0% | Podium%: 95.0%
+#16 Driver #16 - AvgPts: 136.7 | Win%: 33.5% | Podium%: 92.5%
+#07 Driver #7 - AvgPts: 77.1 | Win%: 2.0% | Podium%: 41.5%
+#55 Driver #55 - AvgPts: 70.8 | Win%: 0.0% | Podium%: 27.0%
+#22 Driver #22 - AvgPts: 65.9 | Win%: 0.5% | Podium%: 16.5%
+#111 Driver #111 - AvgPts: 56.6 | Win%: 0.0% | Podium%: 7.0%
+#78 Driver #78 - AvgPts: 56.2 | Win%: 0.0% | Podium%: 11.0%
+#72 Driver #72 - AvgPts: 53.3 | Win%: 0.0% | Podium%: 8.0%
+#21 Driver #21 - AvgPts: 46.2 | Win%: 0.0% | Podium%: 5.5%
+#41 Driver #41 - AvgPts: 29.9 | Win%: 0.0% | Podium%: 0.5%
+
+Note: Monte Carlo averages reflect 200 simulated seasons and will differ from the single-run standings above.

@@ -1,0 +1,17 @@
+Transfer Learning Training Report
+================================================================================
+
+Total samples: 1166
+Train samples: 932
+Validation samples: 234
+
+Final Train Loss: 0.025914
+Final Val Loss: 0.026607
+Validation metrics: {'lap_time_mae': 0.20266494154930115, 'position_mae': 0.12860436737537384, 'speed_mae': 0.000944246887229383, 'finish_prob_mae': 0.011858038604259491}
+
+Cross-validation metrics per fold:
+  Fold 1: {'lap_time_mae': 0.2019330859184265, 'position_mae': 0.17620719969272614, 'speed_mae': 0.0033431786578148603, 'finish_prob_mae': 0.024436427280306816}
+  Fold 2: {'lap_time_mae': 0.2238423228263855, 'position_mae': 0.18474552035331726, 'speed_mae': 0.0031397980637848377, 'finish_prob_mae': 0.026244577020406723}
+  Fold 3: {'lap_time_mae': 0.19936396181583405, 'position_mae': 0.1648152470588684, 'speed_mae': 0.00512410094961524, 'finish_prob_mae': 0.027716707438230515}
+
+Average cross-validation metrics: {'lap_time_mae': np.float64(0.20837979018688202), 'position_mae': np.float64(0.1752559890349706), 'speed_mae': np.float64(0.0038690258904049792), 'finish_prob_mae': np.float64(0.026132570579648018)}

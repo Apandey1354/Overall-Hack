@@ -1,0 +1,59 @@
+================================================================================
+GR CUP RACING DATA - QUALITY REPORT
+================================================================================
+Generated: 2025-11-17 17:11:18
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Venues: 4
+Total File Checks: 40
+Files Found: 40
+Files Missing: 0
+Overall Completeness: 100.0%
+
+DETAILED BREAKDOWN
+--------------------------------------------------------------------------------
+
+BARBER:
+  Files Found: 10/10
+  Total Rows: 1,400
+  Average Missing Data: 10.65%
+
+COTA:
+  Files Found: 10/10
+  Total Rows: 1,269
+  Average Missing Data: 10.93%
+
+INDIANAPOLIS:
+  Files Found: 10/10
+  Total Rows: 1,548
+  Average Missing Data: 14.98%
+
+VIRGINIA-INTERNATIONAL-RACEWAY:
+  Files Found: 10/10
+  Total Rows: 1,083
+  Average Missing Data: 12.80%
+
+
+FILE TYPE BREAKDOWN:
+--------------------------------------------------------------------------------
+
+RESULTS:
+  Files Found: 8/8
+  Total Rows: 212
+
+RESULTS_BY_CLASS:
+  Files Found: 8/8
+  Total Rows: 212
+
+WEATHER:
+  Files Found: 8/8
+  Total Rows: 351
+
+BEST_LAPS:
+  Files Found: 8/8
+  Total Rows: 208
+
+ANALYSIS:
+  Files Found: 8/8
+  Total Rows: 4,317

@@ -1,0 +1,383 @@
+================================================================================
+TRACK: barber_Race 1
+================================================================================
+Overview:
+  - track_id: barber_Race 1
+  - venue: barber
+  - race: Race 1
+  - complexity_score: 0.5833333333333334
+  - track_length_km: 3.83
+  - num_sectors: 3
+  - dominant_features: ['technical', 'high-speed']
+  - recommended_focus: ['Link apexes and manage rotation through tighter corners.', 'Maximize exit speed and straighten steering before throttle.']
+  - local_notes: {'track_highlights': ['Flowing technical track with elevation changes.', 'Sequence-heavy S turns punish sloppy rhythm.'], 'setup_focus': ['Stable front end for rapid direction changes.', 'Traction control tuned for flowing exits.'], 'risk_zones': ['T2-T3 complex: easy to over-slow entry.', 'Last sector elevation drop: brake release timing crucial.'], 'complexity_score': 0.5833333333333334}
+
+Sector Recommendations:
+  - S1: focus=precision variance=7.9145
+      Driver tip: Trim entry speed and smooth brake release to cut the spread between laps.
+  - S2: focus=precision variance=10.7882
+      Driver tip: Trim entry speed and smooth brake release to cut the spread between laps.
+  - S3: focus=stability variance=106.5128
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+
+Weather Strategy [default]:
+  - Baseline setup: optimize balance between corner entry stability and rotation.
+
+Weather Strategy [rain]:
+  - Prioritize smooth throttle and early upshifts.
+  - Use defensive lines through sectors with high variance.
+
+Weather Strategy [hot]:
+  - Reduce sliding in Sector 2 to control temps.
+
+Weather Strategy [cold]:
+  - Build temperature on straights before push lap.
+
+Driver Advice:
+  Strengths: ['speed-focused']
+  Weaknesses: ['technical', 'balanced']
+  Focus:
+    - Maintain current approach; use telemetry overlays to refine braking markers.
+    - High spread in S1, S2—review data there to tame the swings.
+
+AI-Augmented Recommendations:
+- Prioritize smooth and precise braking in S1 and S2 to reduce lap time variance; focus on trimming entry speed and brake release to maintain rhythm through the technical sections.  
+- In the T2-T3 complex and last sector elevation drop, practice consistent braking points and manage throttle application carefully to improve stability and exit speed.  
+- Use telemetry overlays to analyze and refine braking markers, especially in sectors with high inconsistency, aiming to link apexes smoothly and maintain rotation for better cornering balance.
+
+
+================================================================================
+TRACK: barber_Race 2
+================================================================================
+Overview:
+  - track_id: barber_Race 2
+  - venue: barber
+  - race: Race 2
+  - complexity_score: 0.5833333333333334
+  - track_length_km: 3.83
+  - num_sectors: 3
+  - dominant_features: ['technical']
+  - recommended_focus: ['Link apexes and manage rotation through tighter corners.']
+  - local_notes: {'track_highlights': ['Flowing technical track with elevation changes.', 'Sequence-heavy S turns punish sloppy rhythm.'], 'setup_focus': ['Stable front end for rapid direction changes.', 'Traction control tuned for flowing exits.'], 'risk_zones': ['T2-T3 complex: easy to over-slow entry.', 'Last sector elevation drop: brake release timing crucial.'], 'complexity_score': 0.5833333333333334}
+
+Sector Recommendations:
+  - S1: focus=attack speed variance=2.5555
+      Driver tip: Consistency is excellent—carry more apex speed and attack exit throttle earlier.
+  - S2: focus=attack speed variance=0.9490
+      Driver tip: Consistency is excellent—carry more apex speed and attack exit throttle earlier.
+  - S3: focus=stability variance=379.8579
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+
+Weather Strategy [default]:
+  - Baseline setup: optimize balance between corner entry stability and rotation.
+
+Weather Strategy [rain]:
+  - Prioritize smooth throttle and early upshifts.
+  - Use defensive lines through sectors with high variance.
+
+Weather Strategy [hot]:
+  - Reduce sliding in Sector 2 to control temps.
+
+Weather Strategy [cold]:
+  - Build temperature on straights before push lap.
+
+Driver Advice:
+  Strengths: ['speed-focused']
+  Weaknesses: ['technical', 'balanced']
+  Focus:
+    - Maintain current approach; use telemetry overlays to refine braking markers.
+    - High spread in S1, S3—review data there to tame the swings.
+
+AI-Augmented Recommendations:
+- In S1 and S2, focus on carrying more apex speed and attacking the exit throttle earlier while maintaining your strong consistency; use telemetry overlays to fine-tune braking points and throttle application for smoother transitions.
+- In the technical T2-T3 complex and the last sector with elevation changes, prioritize stability by reviewing braking points carefully and managing rotation through tighter corners to avoid over-slowing and inconsistent lap times.
+- Address the high variability and mistakes in S3 by analyzing telemetry for braking and track limit adherence, aiming to stabilize your approach and reduce major errors that cause large time losses.
+
+
+================================================================================
+TRACK: COTA_Race 1
+================================================================================
+Overview:
+  - track_id: COTA_Race 1
+  - venue: COTA
+  - race: Race 1
+  - complexity_score: 0.5833333333333334
+  - track_length_km: 5.51
+  - num_sectors: 3
+  - dominant_features: ['technical', 'corner-heavy']
+  - recommended_focus: ['Link apexes and manage rotation through tighter corners.', 'Prioritize mid-corner balance and rotate the car early.']
+  - local_notes: {'track_highlights': ['Large elevation changes, especially T1 climb.', 'First sector mimics Maggotts/Becketts rhythm.', 'Long back straight requires optimal exit speed.'], 'setup_focus': ['Firm platform to handle aggressive chicanes.', 'Aerodynamic efficiency for long straights.'], 'risk_zones': ['T1 uphill braking mis-judgment leads to deep lockups.', 'Esses: missing the first apex cascades through entire S1.'], 'complexity_score': 0.5833333333333334}
+
+Sector Recommendations:
+  - S1: focus=stability variance=887.4224
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+  - S2: focus=stability variance=105.7945
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+  - S3: focus=stability variance=79.4242
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+
+Weather Strategy [default]:
+  - Baseline setup: optimize balance between corner entry stability and rotation.
+
+Weather Strategy [rain]:
+  - Prioritize smooth throttle and early upshifts.
+  - Use defensive lines through sectors with high variance.
+
+Weather Strategy [hot]:
+  - Reduce sliding in Sector 2 to control temps.
+
+Weather Strategy [cold]:
+  - Build temperature on straights before push lap.
+
+Driver Advice:
+  Strengths: ['speed-focused']
+  Weaknesses: ['technical', 'balanced']
+  Focus:
+    - Maintain current approach; use telemetry overlays to refine braking markers.
+    - High spread in S1, S2—review data there to tame the swings.
+
+AI-Augmented Recommendations:
+- Prioritize consistency in S1 and S2 by refining braking points and strictly adhering to track limits; use telemetry overlays to identify and correct major mistakes causing high variance.
+- Focus on improving mid-corner balance and early car rotation through technical, corner-heavy sections, especially the Esses and chicanes, to reduce time loss and enhance stability.
+- Optimize setup for a firm platform to handle aggressive chicanes and improve aerodynamic efficiency for the long back straight, maximizing exit speed while maintaining control through elevation changes.
+
+
+================================================================================
+TRACK: COTA_Race 2
+================================================================================
+Overview:
+  - track_id: COTA_Race 2
+  - venue: COTA
+  - race: Race 2
+  - complexity_score: 0.5833333333333334
+  - track_length_km: 5.51
+  - num_sectors: 3
+  - dominant_features: ['technical', 'corner-heavy']
+  - recommended_focus: ['Link apexes and manage rotation through tighter corners.', 'Prioritize mid-corner balance and rotate the car early.']
+  - local_notes: {'track_highlights': ['Large elevation changes, especially T1 climb.', 'First sector mimics Maggotts/Becketts rhythm.', 'Long back straight requires optimal exit speed.'], 'setup_focus': ['Firm platform to handle aggressive chicanes.', 'Aerodynamic efficiency for long straights.'], 'risk_zones': ['T1 uphill braking mis-judgment leads to deep lockups.', 'Esses: missing the first apex cascades through entire S1.'], 'complexity_score': 0.5833333333333334}
+
+Sector Recommendations:
+  - S1: focus=precision variance=30.2563
+      Driver tip: Trim entry speed and smooth brake release to cut the spread between laps.
+  - S2: focus=stability variance=248.4225
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+  - S3: focus=stability variance=54.0884
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+
+Weather Strategy [default]:
+  - Baseline setup: optimize balance between corner entry stability and rotation.
+
+Weather Strategy [rain]:
+  - Prioritize smooth throttle and early upshifts.
+  - Use defensive lines through sectors with high variance.
+
+Weather Strategy [hot]:
+  - Reduce sliding in Sector 2 to control temps.
+
+Weather Strategy [cold]:
+  - Build temperature on straights before push lap.
+
+Driver Advice:
+  Strengths: ['speed-focused']
+  Weaknesses: ['technical', 'balanced']
+  Focus:
+    - Maintain current approach; use telemetry overlays to refine braking markers.
+    - High spread in S1, S2—review data there to tame the swings.
+
+AI-Augmented Recommendations:
+- In Sector 1, focus on precision by trimming entry speed and applying smooth brake release to reduce lap time variability; use telemetry overlays to fine-tune braking markers and avoid deep lockups, especially at the uphill T1.
+- For Sector 2, prioritize stability by reviewing and adjusting braking points and track limits to eliminate major mistakes; concentrate on maintaining mid-corner balance and early car rotation through the technical esses.
+- In Sector 3, maintain aerodynamic efficiency and a firm platform setup to optimize exit speed on the long back straight; consistently manage car stability to reduce time spread and capitalize on your speed-focused strengths.
+
+
+================================================================================
+TRACK: indianapolis_Race 1
+================================================================================
+Overview:
+  - track_id: indianapolis_Race 1
+  - venue: indianapolis
+  - race: Race 1
+  - complexity_score: 0.5833333333333334
+  - track_length_km: 3.925
+  - num_sectors: 3
+  - dominant_features: ['technical']
+  - recommended_focus: ['Link apexes and manage rotation through tighter corners.']
+  - local_notes: {'track_highlights': ['Combines oval banking with stop-and-go infield.', 'Tight hairpins require maximizing rotation without understeer.'], 'setup_focus': ['Brake stability for heavy stops (T1, T7).', 'Rear grip for abrupt direction changes.'], 'risk_zones': ['T1 braking from the oval straight — easy to overcook.', 'Transition back onto oval: watch rear traction.'], 'complexity_score': 0.5833333333333334}
+
+Sector Recommendations:
+  - S1: focus=precision variance=36.2406
+      Driver tip: Trim entry speed and smooth brake release to cut the spread between laps.
+  - S2: focus=precision variance=16.9813
+      Driver tip: Trim entry speed and smooth brake release to cut the spread between laps.
+  - S3: focus=precision variance=25.6591
+      Driver tip: Trim entry speed and smooth brake release to cut the spread between laps.
+
+Weather Strategy [default]:
+  - Baseline setup: optimize balance between corner entry stability and rotation.
+
+Weather Strategy [rain]:
+  - Prioritize smooth throttle and early upshifts.
+  - Use defensive lines through sectors with high variance.
+
+Weather Strategy [hot]:
+  - Reduce sliding in Sector 2 to control temps.
+
+Weather Strategy [cold]:
+  - Build temperature on straights before push lap.
+
+Driver Advice:
+  Strengths: ['speed-focused']
+  Weaknesses: ['technical', 'balanced']
+  Focus:
+    - Maintain current approach; use telemetry overlays to refine braking markers.
+    - High spread in S1, S2—review data there to tame the swings.
+
+AI-Augmented Recommendations:
+- Prioritize precision in sectors S1 and S2 by trimming entry speeds and practicing smooth brake releases to reduce lap time variability and improve consistency.
+- Focus on mastering brake stability at heavy stop zones (T1 and T7) to avoid overcooking brakes, especially when transitioning from the oval straight into tighter infield corners.
+- Use telemetry overlays to analyze and refine braking markers, emphasizing rear grip management during abrupt direction changes and transitions back onto the oval to maintain rotation and prevent understeer.
+
+
+================================================================================
+TRACK: indianapolis_Race 2
+================================================================================
+Overview:
+  - track_id: indianapolis_Race 2
+  - venue: indianapolis
+  - race: Race 2
+  - complexity_score: 0.5833333333333334
+  - track_length_km: 3.925
+  - num_sectors: 3
+  - dominant_features: ['technical']
+  - recommended_focus: ['Link apexes and manage rotation through tighter corners.']
+  - local_notes: {'track_highlights': ['Combines oval banking with stop-and-go infield.', 'Tight hairpins require maximizing rotation without understeer.'], 'setup_focus': ['Brake stability for heavy stops (T1, T7).', 'Rear grip for abrupt direction changes.'], 'risk_zones': ['T1 braking from the oval straight — easy to overcook.', 'Transition back onto oval: watch rear traction.'], 'complexity_score': 0.5833333333333334}
+
+Sector Recommendations:
+  - S1: focus=stability variance=147.7720
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+  - S2: focus=precision variance=38.4733
+      Driver tip: Trim entry speed and smooth brake release to cut the spread between laps.
+  - S3: focus=precision variance=38.6514
+      Driver tip: Trim entry speed and smooth brake release to cut the spread between laps.
+
+Weather Strategy [default]:
+  - Baseline setup: optimize balance between corner entry stability and rotation.
+
+Weather Strategy [rain]:
+  - Prioritize smooth throttle and early upshifts.
+  - Use defensive lines through sectors with high variance.
+
+Weather Strategy [hot]:
+  - Reduce sliding in Sector 2 to control temps.
+
+Weather Strategy [cold]:
+  - Build temperature on straights before push lap.
+
+Driver Advice:
+  Strengths: ['speed-focused']
+  Weaknesses: ['technical', 'balanced']
+  Focus:
+    - Maintain current approach; use telemetry overlays to refine braking markers.
+    - High spread in S1, S2—review data there to tame the swings.
+
+AI-Augmented Recommendations:
+- Prioritize improving stability and consistency in Sector 1 by refining braking points and closely monitoring track limits to reduce major mistakes and lap time variance.
+- Focus on precision in Sectors 2 and 3 by trimming entry speeds and practicing smooth brake release to minimize time spread and enhance cornering accuracy.
+- Leverage telemetry overlays to analyze braking markers in high-variance sectors, enabling data-driven adjustments that complement your speed-focused driving style while addressing technical weaknesses.
+
+
+================================================================================
+TRACK: virginia-international-raceway_Race 1
+================================================================================
+Overview:
+  - track_id: virginia-international-raceway_Race 1
+  - venue: virginia-international-raceway
+  - race: Race 1
+  - complexity_score: 0.5833333333333334
+  - track_length_km: 5.26
+  - num_sectors: 3
+  - dominant_features: ['technical']
+  - recommended_focus: ['Link apexes and manage rotation through tighter corners.']
+  - local_notes: {'track_highlights': ['Fast, flowing sections like the Climbing Esses.', 'High-risk zones combined with grass runoff.'], 'setup_focus': ['High-speed stability; avoid bottoming through esses.', 'Predictable rear during curb strikes.'], 'risk_zones': ['Uphill Esses: one mistake ends in big time loss.', 'Roller Coaster: downhill braking over crest.'], 'complexity_score': 0.5833333333333334}
+
+Sector Recommendations:
+  - S1: focus=precision variance=38.1281
+      Driver tip: Trim entry speed and smooth brake release to cut the spread between laps.
+  - S2: focus=stability variance=116.4551
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+  - S3: focus=stability variance=194.2285
+      Driver tip: Critical inconsistency—review braking points and track limits; likely a major mistake in this sector.
+
+Weather Strategy [default]:
+  - Baseline setup: optimize balance between corner entry stability and rotation.
+
+Weather Strategy [rain]:
+  - Prioritize smooth throttle and early upshifts.
+  - Use defensive lines through sectors with high variance.
+
+Weather Strategy [hot]:
+  - Reduce sliding in Sector 2 to control temps.
+
+Weather Strategy [cold]:
+  - Build temperature on straights before push lap.
+
+Driver Advice:
+  Strengths: ['speed-focused']
+  Weaknesses: ['technical', 'balanced']
+  Focus:
+    - Maintain current approach; use telemetry overlays to refine braking markers.
+    - High spread in S1, S2—review data there to tame the swings.
+
+AI-Augmented Recommendations:
+- Prioritize precision in Sector 1 by trimming entry speed and smoothing brake release to reduce lap time variability and improve consistency.
+- Focus on stability through Sectors 2 and 3 by reviewing and refining braking points and track limit adherence to avoid major mistakes, especially in high-risk zones like the Uphill Esses and Roller Coaster.
+- Use telemetry overlays to analyze and adjust braking markers, linking apexes smoothly and managing car rotation through tighter corners to enhance technical performance and overall lap stability.
+
+
+================================================================================
+TRACK: virginia-international-raceway_Race 2
+================================================================================
+Overview:
+  - track_id: virginia-international-raceway_Race 2
+  - venue: virginia-international-raceway
+  - race: Race 2
+  - complexity_score: 0.5833333333333334
+  - track_length_km: 5.26
+  - num_sectors: 3
+  - dominant_features: ['technical']
+  - recommended_focus: ['Link apexes and manage rotation through tighter corners.']
+  - local_notes: {'track_highlights': ['Fast, flowing sections like the Climbing Esses.', 'High-risk zones combined with grass runoff.'], 'setup_focus': ['High-speed stability; avoid bottoming through esses.', 'Predictable rear during curb strikes.'], 'risk_zones': ['Uphill Esses: one mistake ends in big time loss.', 'Roller Coaster: downhill braking over crest.'], 'complexity_score': 0.5833333333333334}
+
+Sector Recommendations:
+  - S1: focus=attack speed variance=2.2236
+      Driver tip: Consistency is excellent—carry more apex speed and attack exit throttle earlier.
+  - S2: focus=attack speed variance=0.9915
+      Driver tip: Consistency is excellent—carry more apex speed and attack exit throttle earlier.
+  - S3: focus=attack speed variance=4.7814
+      Driver tip: Consistency is excellent—carry more apex speed and attack exit throttle earlier.
+
+Weather Strategy [default]:
+  - Baseline setup: optimize balance between corner entry stability and rotation.
+
+Weather Strategy [rain]:
+  - Prioritize smooth throttle and early upshifts.
+  - Use defensive lines through sectors with high variance.
+
+Weather Strategy [hot]:
+  - Reduce sliding in Sector 2 to control temps.
+
+Weather Strategy [cold]:
+  - Build temperature on straights before push lap.
+
+Driver Advice:
+  Strengths: ['speed-focused']
+  Weaknesses: ['technical', 'balanced']
+  Focus:
+    - Maintain current approach; use telemetry overlays to refine braking markers.
+    - High spread in S1, S3—review data there to tame the swings.
+
+AI-Augmented Recommendations:
+- Focus on linking apexes smoothly and managing car rotation through tighter corners, especially in technical sections like the Uphill Esses and Roller Coaster, to reduce time loss and improve balance.
+- Use telemetry overlays to refine braking points in S1 and S3, where variability is highest, aiming to carry more apex speed and attack exit throttle earlier for better consistency and faster sector times.
+- Prioritize setup adjustments for high-speed stability and predictable rear behavior over curbs, avoiding bottoming through the esses to maintain control and confidence on fast, flowing sections.
+

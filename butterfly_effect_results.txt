@@ -1,0 +1,116 @@
+=== Baseline Championship (Top 5) ===
+
+  P1: #16 Driver #16 - 155.0 pts
+  P2: #13 Driver #13 - 143.0 pts
+  P3: #07 Driver #7 - 100.0 pts
+  P4: #55 Driver #55 - 84.0 pts
+  P5: #72 Driver #72 - 73.0 pts
+
+Baseline Champion: #16 Driver #16 (155.0 pts)
+
+=== Butterfly Effect: Top Event Impacts ===
+Event 5 (indianapolis_Race 1) | Score=31.00 | Champion change: Driver #16 -> Driver #13
+    ΔPts -1.0 | ΔRank -1.0 for #13 Driver #13
+    ΔPts -1.0 | ΔRank +0.0 for #46 Driver #46
+    ΔPts -2.0 | ΔRank +0.0 for #88 Driver #88
+    ΔPts -4.0 | ΔRank +0.0 for #78 Driver #78
+    ΔPts -6.0 | ΔRank +1.0 for #47 Driver #47
+Event 6 (indianapolis_Race 2) | Score=31.00 | Champion change: Driver #16 -> Driver #13
+    ΔPts -1.0 | ΔRank -1.0 for #13 Driver #13
+    ΔPts -1.0 | ΔRank +0.0 for #78 Driver #78
+    ΔPts -2.0 | ΔRank +0.0 for #111 Driver #111
+    ΔPts -4.0 | ΔRank +0.0 for #22 Driver #22
+    ΔPts -6.0 | ΔRank +1.0 for #46 Driver #46
+Event 4 (COTA_Race 2) | Score=27.00 | Champion change: Driver #16 -> Driver #16
+    ΔPts -1.0 | ΔRank +1.0 for #12 Driver #12
+    ΔPts -2.0 | ΔRank -1.0 for #21 Driver #21
+    ΔPts -4.0 | ΔRank +0.0 for #41 Driver #41
+    ΔPts -6.0 | ΔRank +0.0 for #46 Driver #46
+    ΔPts -8.0 | ΔRank +1.0 for #72 Driver #72
+Event 8 (virginia-international-raceway_Race 2) | Score=27.00 | Champion change: Driver #16 -> Driver #16
+    ΔPts -1.0 | ΔRank +1.0 for #58 Driver #58
+    ΔPts -2.0 | ΔRank +0.0 for #41 Driver #41
+    ΔPts -4.0 | ΔRank +1.0 for #71 Driver #71
+    ΔPts -6.0 | ΔRank +0.0 for #72 Driver #72
+    ΔPts -8.0 | ΔRank +0.0 for #22 Driver #22
+Event 2 (barber_Race 2) | Score=25.00 | Champion change: Driver #16 -> Driver #16
+    ΔPts -1.0 | ΔRank +0.0 for #21 Driver #21
+    ΔPts -2.0 | ΔRank +0.0 for #78 Driver #78
+    ΔPts -4.0 | ΔRank +1.0 for #47 Driver #47
+    ΔPts -6.0 | ΔRank +1.0 for #111 Driver #111
+    ΔPts -8.0 | ΔRank +1.0 for #46 Driver #46
+
+=== Scenario: Driver 13 comeback ===
+Description: Force driver #13 to win one high-impact race and promote driver #72 in another.
+Adjustments applied:
+  Event 5: [{'driver_number': 13, 'new_position': 1}]
+  Event 6: [{'driver_number': 72, 'position_delta': -1}]
+
+Scenario Final Standings (Top 5):
+  P1: #13 nan - 141.0 pts
+  P2: #16 nan - 103.0 pts
+  P3: #07 nan - 70.0 pts
+  P4: #55 nan - 66.0 pts
+  P5: #72 nan - 48.0 pts
+
+Timeline Leaderboard:
+  After Event 1 (barber_Race 1): Leader #13 at 27.0 pts
+  After Event 2 (barber_Race 2): Leader #13 at 47.0 pts
+  After Event 3 (COTA_Race 1): Leader #13 at 67.0 pts
+  After Event 4 (COTA_Race 2): Leader #13 at 94.0 pts
+  After Event 7 (virginia-international-raceway_Race 1): Leader #13 at 114.0 pts
+  After Event 8 (virginia-international-raceway_Race 2): Leader #13 at 141.0 pts
+
+Baseline vs Scenario Comparison (Top 10 by scenario rank):
+#13 Driver #13 | Base P2 (143.0 pts) -> Scenario P1 (141.0 pts) | ΔPts -2.0, ΔRank -1.0
+#16 Driver #16 | Base P1 (155.0 pts) -> Scenario P2 (103.0 pts) | ΔPts -52.0, ΔRank +1.0
+#07 Driver #7 | Base P3 (100.0 pts) -> Scenario P3 (70.0 pts) | ΔPts -30.0, ΔRank +0.0
+#55 Driver #55 | Base P4 (84.0 pts) -> Scenario P4 (66.0 pts) | ΔPts -18.0, ΔRank +0.0
+#72 Driver #72 | Base P5 (73.0 pts) -> Scenario P5 (48.0 pts) | ΔPts -25.0, ΔRank +0.0
+#21 Driver #21 | Base P6 (69.0 pts) -> Scenario P6 (44.0 pts) | ΔPts -25.0, ΔRank +0.0
+#22 Driver #22 | Base P7 (53.0 pts) -> Scenario P7 (41.0 pts) | ΔPts -12.0, ΔRank +0.0
+#78 Driver #78 | Base P8 (43.0 pts) -> Scenario P8 (38.0 pts) | ΔPts -5.0, ΔRank +0.0
+#46 Driver #46 | Base P9 (30.0 pts) -> Scenario P9 (23.0 pts) | ΔPts -7.0, ΔRank +0.0
+#41 Driver #41 | Base P10 (26.0 pts) -> Scenario P10 (14.0 pts) | ΔPts -12.0, ΔRank +0.0
+
+=== Scenario: Driver 16 title push ===
+Description: Grant driver #16 victories in the three highest-impact events to evaluate title potential.
+Adjustments applied:
+  Event 5: [{'driver_number': 16, 'new_position': 1}]
+  Event 6: [{'driver_number': 16, 'new_position': 1}]
+  Event 4: [{'driver_number': 16, 'new_position': 1}]
+
+Scenario Final Standings (Top 5):
+  P1: #13 nan - 114.0 pts
+  P2: #16 nan - 85.0 pts
+  P3: #07 nan - 60.0 pts
+  P4: #55 nan - 51.0 pts
+  P5: #21 nan - 42.0 pts
+
+Timeline Leaderboard:
+  After Event 1 (barber_Race 1): Leader #13 at 27.0 pts
+  After Event 2 (barber_Race 2): Leader #13 at 47.0 pts
+  After Event 3 (COTA_Race 1): Leader #13 at 67.0 pts
+  After Event 7 (virginia-international-raceway_Race 1): Leader #13 at 87.0 pts
+  After Event 8 (virginia-international-raceway_Race 2): Leader #13 at 114.0 pts
+
+Baseline vs Scenario Comparison (Top 10 by scenario rank):
+#13 Driver #13 | Base P2 (143.0 pts) -> Scenario P1 (114.0 pts) | ΔPts -29.0, ΔRank -1.0
+#16 Driver #16 | Base P1 (155.0 pts) -> Scenario P2 (85.0 pts) | ΔPts -70.0, ΔRank +1.0
+#07 Driver #7 | Base P3 (100.0 pts) -> Scenario P3 (60.0 pts) | ΔPts -40.0, ΔRank +0.0
+#55 Driver #55 | Base P4 (84.0 pts) -> Scenario P4 (51.0 pts) | ΔPts -33.0, ΔRank +0.0
+#21 Driver #21 | Base P6 (69.0 pts) -> Scenario P5 (42.0 pts) | ΔPts -27.0, ΔRank -1.0
+#22 Driver #22 | Base P7 (53.0 pts) -> Scenario P6 (41.0 pts) | ΔPts -12.0, ΔRank -1.0
+#72 Driver #72 | Base P5 (73.0 pts) -> Scenario P7 (40.0 pts) | ΔPts -33.0, ΔRank +2.0
+#78 Driver #78 | Base P8 (43.0 pts) -> Scenario P8 (26.0 pts) | ΔPts -17.0, ΔRank +0.0
+#46 Driver #46 | Base P9 (30.0 pts) -> Scenario P9 (17.0 pts) | ΔPts -13.0, ΔRank +0.0
+#111 Driver #111 | Base P11 (16.0 pts) -> Scenario P10 (14.0 pts) | ΔPts -2.0, ΔRank -1.0
+
+=== AI Narrative Summary ===
+- Granting Driver #16 wins in three key events significantly reshuffles the championship, but despite these victories, Driver #13 maintains the lead throughout the season and ultimately wins the title.
+
+- Driver #16’s scenario points drop drastically (from 155 to 85), indicating that while winning select races boosts rank, overall consistency and points accumulation are crucial for the championship.
+
+- Several mid-pack drivers (#07, #55, #21, #72) see notable point decreases and minor rank shifts, highlighting how pivotal race outcomes for top contenders ripple down the field.
+
+- The storyline underscores that isolated race wins by a title contender (Driver #16) are insufficient to overcome a consistently strong leader (Driver #13), emphasizing the importance of steady performance over sporadic victories.

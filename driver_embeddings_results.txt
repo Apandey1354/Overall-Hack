@@ -1,0 +1,222 @@
+================================================================================
+DRIVER EMBEDDINGS RESULTS
+================================================================================
+
+Total Drivers: 36
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Technical Proficiency:
+  Mean: 0.297
+  Std:  0.299
+  Min:  0.000
+  Max:  0.930
+
+High-Speed Proficiency:
+  Mean: 0.435
+  Std:  0.188
+  Min:  0.051
+  Max:  0.741
+
+Consistency Score:
+  Mean: 0.420
+  Std:  0.203
+  Min:  0.249
+  Max:  0.966
+
+Weather Adaptability:
+  Mean: 0.093
+  Std:  0.080
+  Min:  0.042
+  Max:  0.444
+
+
+================================================================================
+TOP PERFORMERS
+================================================================================
+
+Top 10 Technical Drivers:
+--------------------------------------------------------------------------------
+  Driver # 13: Technical=0.930, Speed=0.741, Consistency=0.456, Best Track Type=speed-focused
+  Driver # 16: Technical=0.895, Speed=0.460, Consistency=0.966, Best Track Type=speed-focused
+  Driver #  7: Technical=0.825, Speed=0.649, Consistency=0.264, Best Track Type=speed-focused
+  Driver # 55: Technical=0.693, Speed=0.652, Consistency=0.279, Best Track Type=speed-focused
+  Driver # 72: Technical=0.658, Speed=0.621, Consistency=0.254, Best Track Type=speed-focused
+  Driver # 21: Technical=0.639, Speed=0.567, Consistency=0.298, Best Track Type=speed-focused
+  Driver # 22: Technical=0.614, Speed=0.619, Consistency=0.440, Best Track Type=speed-focused
+  Driver # 78: Technical=0.579, Speed=0.327, Consistency=0.865, Best Track Type=speed-focused
+  Driver #111: Technical=0.539, Speed=0.654, Consistency=0.427, Best Track Type=speed-focused
+  Driver # 46: Technical=0.526, Speed=0.627, Consistency=0.259, Best Track Type=speed-focused
+
+Top 10 Speed Drivers:
+--------------------------------------------------------------------------------
+  Driver # 13: Technical=0.930, Speed=0.741, Consistency=0.456, Best Track Type=speed-focused
+  Driver #111: Technical=0.539, Speed=0.654, Consistency=0.427, Best Track Type=speed-focused
+  Driver # 55: Technical=0.693, Speed=0.652, Consistency=0.279, Best Track Type=speed-focused
+  Driver #  7: Technical=0.825, Speed=0.649, Consistency=0.264, Best Track Type=speed-focused
+  Driver # 46: Technical=0.526, Speed=0.627, Consistency=0.259, Best Track Type=speed-focused
+  Driver # 71: Technical=0.474, Speed=0.624, Consistency=0.313, Best Track Type=speed-focused
+  Driver # 72: Technical=0.658, Speed=0.621, Consistency=0.254, Best Track Type=speed-focused
+  Driver # 22: Technical=0.614, Speed=0.619, Consistency=0.440, Best Track Type=speed-focused
+  Driver #  2: Technical=0.351, Speed=0.618, Consistency=0.249, Best Track Type=speed-focused
+  Driver # 21: Technical=0.639, Speed=0.567, Consistency=0.298, Best Track Type=speed-focused
+
+Top 10 Most Consistent Drivers:
+--------------------------------------------------------------------------------
+  Driver # 16: Technical=0.895, Speed=0.460, Consistency=0.966, Best Track Type=speed-focused
+  Driver # 12: Technical=0.105, Speed=0.564, Consistency=0.892, Best Track Type=speed-focused
+  Driver # 78: Technical=0.579, Speed=0.327, Consistency=0.865, Best Track Type=speed-focused
+  Driver # 58: Technical=0.079, Speed=0.263, Consistency=0.787, Best Track Type=speed-focused
+  Driver # 73: Technical=0.000, Speed=0.051, Consistency=0.726, Best Track Type=speed-focused
+  Driver # 20: Technical=0.000, Speed=0.181, Consistency=0.685, Best Track Type=speed-focused
+  Driver # 14: Technical=0.000, Speed=0.102, Consistency=0.671, Best Track Type=speed-focused
+  Driver # 57: Technical=0.000, Speed=0.178, Consistency=0.462, Best Track Type=speed-focused
+  Driver # 13: Technical=0.930, Speed=0.741, Consistency=0.456, Best Track Type=speed-focused
+  Driver # 22: Technical=0.614, Speed=0.619, Consistency=0.440, Best Track Type=speed-focused
+
+================================================================================
+TRACK TYPE SPECIALIZATIONS
+================================================================================
+
+  speed-focused       : 36 drivers
+
+================================================================================
+ALL DRIVER EMBEDDINGS
+================================================================================
+
+Driver   Tech     Speed    Consist  Weather  Best Type       Strengths                     
+--------------------------------------------------------------------------------
+2        0.351    0.618    0.249    0.090    speed-focused   speed-focused                 
+3        0.129    0.486    0.437    0.069    speed-focused   speed-focused                 
+5        0.193    0.489    0.301    0.067    speed-focused   speed-focused                 
+7        0.825    0.649    0.264    0.143    speed-focused   speed-focused                 
+8        0.000    0.171    0.383    0.045    speed-focused   speed-focused                 
+11       0.000    0.242    0.291    0.047    speed-focused   speed-focused                 
+12       0.105    0.564    0.892    0.051    speed-focused   speed-focused                 
+13       0.930    0.741    0.456    0.444    speed-focused   speed-focused                 
+14       0.000    0.102    0.671    0.050    speed-focused   speed-focused                 
+15       0.000    0.423    0.308    0.049    speed-focused   speed-focused                 
+16       0.895    0.460    0.966    0.333    speed-focused   technical, speed-focused      
+18       0.000    0.219    0.293    0.048    speed-focused   speed-focused                 
+20       0.000    0.181    0.685    0.044    speed-focused   speed-focused                 
+21       0.639    0.567    0.298    0.107    speed-focused   speed-focused                 
+22       0.614    0.619    0.440    0.121    speed-focused   speed-focused                 
+31       0.149    0.364    0.274    0.052    speed-focused   speed-focused                 
+41       0.516    0.557    0.427    0.094    speed-focused   speed-focused                 
+46       0.526    0.627    0.259    0.116    speed-focused   speed-focused                 
+47       0.516    0.507    0.329    0.105    speed-focused   speed-focused                 
+51       0.140    0.453    0.286    0.060    speed-focused   speed-focused                 
+55       0.693    0.652    0.279    0.138    speed-focused   speed-focused                 
+57       0.000    0.178    0.462    0.042    speed-focused   speed-focused                 
+58       0.079    0.263    0.787    0.054    speed-focused   speed-focused                 
+61       0.026    0.460    0.365    0.053    speed-focused   speed-focused                 
+71       0.474    0.624    0.313    0.108    speed-focused   speed-focused                 
+72       0.658    0.621    0.254    0.111    speed-focused   speed-focused                 
+73       0.000    0.051    0.726    0.044    speed-focused   technical, speed-focused      
+78       0.579    0.327    0.865    0.111    speed-focused   speed-focused                 
+80       0.000    0.386    0.312    0.048    speed-focused   speed-focused                 
+86       0.000    0.075    0.312    0.045    speed-focused   speed-focused                 
+88       0.430    0.565    0.314    0.089    speed-focused   speed-focused                 
+89       0.171    0.452    0.313    0.060    speed-focused   speed-focused                 
+93       0.096    0.437    0.311    0.057    speed-focused   speed-focused                 
+98       0.360    0.548    0.300    0.089    speed-focused   speed-focused                 
+111      0.539    0.654    0.427    0.098    speed-focused   speed-focused                 
+113      0.061    0.337    0.267    0.061    speed-focused   speed-focused                 
+
+================================================================================
+SKILL VECTORS (8-dimensional)
+================================================================================
+Format: [Technical, High-Speed, Consistency, Weather, Tech-Track, Speed-Track, Balanced-Track, Finish-Rate]
+--------------------------------------------------------------------------------
+
+Driver #  2:
+  [0.417, 0.664, 0.174, 0.251, 0.088, 0.565, 0.433, 0.700]
+Driver #  3:
+  [0.219, 0.503, 0.520, 0.211, 0.109, 0.819, 0.175, 0.709]
+Driver #  5:
+  [0.298, 0.514, 0.314, 0.201, 0.127, 0.770, 0.266, 0.717]
+Driver #  7:
+  [0.860, 0.729, 0.210, 0.383, 0.419, 0.540, 0.109, 0.726]
+Driver #  8:
+  [0.009, 0.145, 0.457, 0.057, 0.293, 0.624, 0.297, 0.734]
+Driver # 11:
+  [0.000, 0.230, 0.272, 0.076, 0.192, 0.743, 0.246, 0.743]
+Driver # 12:
+  [0.194, 0.601, 0.916, 0.122, 0.043, 0.920, 0.080, 0.751]
+Driver # 13:
+  [0.951, 0.819, 0.551, 0.611, 0.454, 0.311, 0.510, 0.760]
+Driver # 14:
+  [0.026, 0.089, 0.718, 0.112, 0.444, 0.650, 0.001, 0.769]
+Driver # 15:
+  [0.017, 0.408, 0.327, 0.103, 0.052, 0.853, 0.206, 0.777]
+Driver # 16:
+  [0.918, 0.467, 0.976, 0.525, 0.594, 0.423, 0.010, 0.786]
+Driver # 18:
+  [0.043, 0.204, 0.283, 0.094, 0.236, 0.705, 0.257, 0.794]
+Driver # 20:
+  [0.034, 0.170, 0.736, 0.040, 0.259, 0.641, 0.306, 0.803]
+Driver # 21:
+  [0.705, 0.620, 0.294, 0.298, 0.357, 0.670, 0.144, 0.811]
+Driver # 22:
+  [0.678, 0.673, 0.531, 0.351, 0.311, 0.604, 0.333, 0.820]
+Driver # 31:
+  [0.250, 0.349, 0.235, 0.131, 0.179, 0.843, 0.097, 0.829]
+Driver # 41:
+  [0.567, 0.587, 0.505, 0.263, 0.279, 0.727, 0.225, 0.837]
+Driver # 46:
+  [0.591, 0.705, 0.199, 0.338, 0.201, 0.517, 0.445, 0.846]
+Driver # 47:
+  [0.575, 0.535, 0.402, 0.288, 0.269, 0.503, 0.417, 0.854]
+Driver # 51:
+  [0.235, 0.454, 0.260, 0.179, 0.118, 0.796, 0.198, 0.863]
+Driver # 55:
+  [0.759, 0.739, 0.247, 0.371, 0.343, 0.593, 0.287, 0.871]
+Driver # 57:
+  [0.060, 0.159, 0.563, 0.029, 0.249, 0.681, 0.275, 0.880]
+Driver # 58:
+  [0.158, 0.252, 0.825, 0.149, 0.301, 0.896, 0.021, 0.889]
+Driver # 61:
+  [0.104, 0.476, 0.436, 0.140, 0.066, 0.883, 0.128, 0.897]
+Driver # 71:
+  [0.529, 0.694, 0.365, 0.307, 0.159, 0.493, 0.468, 0.906]
+Driver # 72:
+  [0.726, 0.683, 0.186, 0.326, 0.333, 0.691, 0.156, 0.914]
+Driver # 73:
+  [0.069, 0.036, 0.774, 0.048, 0.556, 0.461, 0.031, 0.923]
+Driver # 78:
+  [0.645, 0.306, 0.888, 0.318, 0.435, 0.660, 0.040, 0.931]
+Driver # 80:
+  [0.077, 0.373, 0.356, 0.085, 0.078, 0.872, 0.119, 0.940]
+Driver # 86:
+  [0.051, 0.061, 0.347, 0.066, 0.465, 0.400, 0.366, 0.949]
+Driver # 88:
+  [0.489, 0.610, 0.382, 0.234, 0.211, 0.714, 0.315, 0.957]
+Driver # 89:
+  [0.274, 0.445, 0.374, 0.171, 0.138, 0.810, 0.164, 0.966]
+Driver # 93:
+  [0.179, 0.426, 0.338, 0.160, 0.099, 0.829, 0.184, 0.974]
+Driver # 98:
+  [0.432, 0.572, 0.304, 0.242, 0.149, 0.555, 0.408, 0.983]
+Driver #111:
+  [0.609, 0.749, 0.496, 0.275, 0.225, 0.756, 0.216, 0.991]
+Driver #113:
+  [0.137, 0.322, 0.222, 0.188, 0.169, 0.582, 0.386, 1.000]
+
+================================================================================
+DRIVER SIMILARITY (Top 10 Most Similar Pairs)
+================================================================================
+
+  Driver # 89 <-> Driver # 93: 0.997
+  Driver # 11 <-> Driver # 18: 0.997
+  Driver # 51 <-> Driver # 89: 0.996
+  Driver # 21 <-> Driver # 72: 0.996
+  Driver # 51 <-> Driver # 93: 0.996
+  Driver # 41 <-> Driver #111: 0.995
+  Driver # 61 <-> Driver # 80: 0.995
+  Driver #  8 <-> Driver # 57: 0.994
+  Driver # 80 <-> Driver # 93: 0.994
+  Driver # 88 <-> Driver #111: 0.993
+
+================================================================================
+END OF RESULTS
+================================================================================

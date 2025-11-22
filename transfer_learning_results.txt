@@ -1,0 +1,73 @@
+================================================================================
+TRANSFER LEARNING MODEL EXAMPLE
+================================================================================
+
+Step 1: Initializing...
+✓ Initialized
+  Available venues: barber, COTA, indianapolis, virginia-international-raceway
+
+================================================================================
+Step 1: Creating Driver Embeddings
+================================================================================
+✓ Created embeddings for 36 drivers
+  Skill vector dimension: (8,)
+
+================================================================================
+Step 2: Extracting Track DNA
+================================================================================
+✓ Extracted DNA for 8 tracks
+
+================================================================================
+Step 3: Preparing Training Data
+================================================================================
+✓ Created 1166 training pairs
+  Unique drivers: 36
+  Unique track pairs: 56
+
+================================================================================
+Step 4: Converting to Tensors
+================================================================================
+✓ Converted to tensors
+  Driver embeddings: torch.Size([1166, 8])
+  Source performance: torch.Size([1166, 5])
+  Target DNA: torch.Size([1166, 20])
+  Target performance: torch.Size([1166, 4])
+
+================================================================================
+Step 5: Creating Transfer Learning Model
+================================================================================
+✓ Model created
+  Total parameters: 54,180
+  Trainable parameters: 54,180
+
+  Sample prediction shape: torch.Size([1, 4])
+  Sample prediction: [ 0.06402778 -0.067105   -0.02066517  0.12088038]
+    [Lap Time, Position, Speed, Finish Probability]
+
+================================================================================
+Step 6: Example Prediction
+================================================================================
+
+✓ Prediction for Driver #2
+  Source Track: barber_Race 1
+  Target Track: barber_Race 2
+
+  Predicted Performance:
+    Lap Time Score: 0.064
+    Position Score: -0.067
+    Speed Score: -0.021
+    Finish Probability: 0.121
+
+  Actual Performance:
+    Position: 3
+
+================================================================================
+EXAMPLE COMPLETE
+================================================================================
+
+Next steps:
+1. Train the model on all track pairs
+2. Validate on held-out tracks
+3. Use for performance prediction on new tracks
+
+Saving results to transfer_learning_results.txt...

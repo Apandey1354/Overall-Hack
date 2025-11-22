@@ -1,0 +1,82 @@
+# Project Configuration File
+
+project:
+  name: "Track DNA Profiler & Championship Fate Matrix"
+  version: "1.0.0"
+
+data:
+  raw_data_path: "data/raw"
+  processed_data_path: "data/processed"
+  features_path: "data/features"
+  
+  # Track venues
+  venues:
+    - barber
+    - COTA
+    - indianapolis
+    - virginia-international-raceway
+  
+  # File patterns
+  file_patterns:
+    results: "03_*Results*.CSV"
+    results_by_class: "05_*Results*.CSV"
+    weather: "26_Weather*.CSV"
+    best_laps: "99_Best*.CSV"
+    analysis: "23_Analysis*.CSV"
+    lap_time: "*lap_time*.csv"
+    lap_start: "*lap_start*.csv"
+    lap_end: "*lap_end*.csv"
+    telemetry: "*telemetry*.csv"
+
+models:
+  track_dna:
+    embedding_dim: 128
+    learning_rate: 0.001
+    batch_size: 32
+  
+  transfer_learning:
+    source_encoder_dim: 256
+    target_encoder_dim: 256
+    transfer_dim: 128
+    learning_rate: 0.0005
+  
+  championship:
+    monte_carlo_iterations: 1000000
+    confidence_level: 0.95
+
+simulation:
+  championship:
+    points_system:
+      first: 25
+      second: 18
+      third: 15
+      fourth: 12
+      fifth: 10
+      sixth: 8
+      seventh: 6
+      eighth: 4
+      ninth: 2
+      tenth: 1
+    bonus_points:
+      pole_position: 1
+      fastest_lap: 1
+
+visualization:
+  dashboard:
+    port: 8050
+    host: "127.0.0.1"
+    debug: true
+  colors:
+    primary: "#1f77b4"
+    secondary: "#ff7f0e"
+    success: "#2ca02c"
+    danger: "#d62728"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/project.log"
+
+
+
+

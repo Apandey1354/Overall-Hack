@@ -1,4 +1,4 @@
-# Complete Setup Guide - Track DNA Profiler & Championship Fate Matrix
+# Complete Setup Guide - "PODIUM"
 Make sure you have set this project up before: https://github.com/Apandey1354/Telemetry
 Extract these datasets into the root directory: https://drive.google.com/drive/folders/1vNcNNVD3SZq4BdemxKxylKs3wP8lzFgj?usp=sharing
 
